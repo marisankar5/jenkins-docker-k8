@@ -16,5 +16,5 @@ spec:
         - name: mrdevops
           image: iyappan0107/k8-pipeline
           imagePullPolicy: Always
-          ports:
+          ports: 8080
           - containerPort: 80
